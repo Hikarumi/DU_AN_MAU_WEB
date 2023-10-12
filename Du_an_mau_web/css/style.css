@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
 .boxcenter {
     width: 70%;
     margin: 0 auto;
@@ -11,7 +16,7 @@
 }
 .demo{
     background-color: antiquewhite;
-    min-height: 10px;
+    min-height: 100px;
 }
 .header{
     background-color: aquamarine;
@@ -22,8 +27,35 @@
 }
 .header h1{
     margin: 10px 20px;
+    font-size: 1.2vw;
 }.header{
     background-color: black;
     color: blue;
     border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 24%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #009000 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px #CCC;
+    border-right: 1px #CCC;
+    border-bottom: 1px #CCC;
 }
