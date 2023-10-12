@@ -13,3 +13,17 @@
     background-color: antiquewhite;
     min-height: 10px;
 }
+.header{
+    background-color: aquamarine;
+    border: 1px #009000 solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+.header h1{
+    margin: 10px 20px;
+}.header{
+    background-color: black;
+    color: blue;
+    border-radius: 5px;
+}
